@@ -1,0 +1,24 @@
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+  }
+}
+.overlay {
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(206, 201, 201, 0.711);
+}
+
+.hidden {
+  display: none;
+}

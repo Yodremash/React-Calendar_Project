@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  &__today-btn {
+    margin-left: 20px;
+    padding: 5px 15px;
+    background: none;
+
+    &:hover {
+      color: white;
+      background: black;
+    }
+  }
+
+  &__icon-btn {
+    margin-left: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-shadow: 1px 0px white, 0 0 3.33px black;
+    &:hover {
+      color: white;
+      text-shadow: 2px 1px black, 0 0 3.33px white;
+    }
+  }
+
+  &__displayed-month {
+    margin-left: 20px;
+    text-decoration: underline rgba(0, 0, 0, 0.777);
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  border-bottom: 3px solid #eee;
+  display: flex;
+  padding: 20px 40px;
+  height: 80px;
+  align-items: center;
+
+  & .create-event-button {
+    position: relative;
+    margin-right: 20px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    &:hover {
+      color: white;
+      background-color: black;
+      box-shadow: 0px 0px 3.33px 1.11px white;
+    }
+    & .create-event-btn__icon {
+      margin-right: 8px;
+      font-size: 17px;
+    }
+  }
+}
